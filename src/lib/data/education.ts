@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'Loyalist College',
-		period: { from: new Date(2023, 0, 1), to: new Date(2025, 5, 1) },
+		period: { from: new Date(2023, 9, 7), to: new Date() },
 		shortDescription: '',
 		slug: 'loyalist-college',
 		subjects: ['PhP', 'Java', 'Go', 'MySQL', 'Project Management', 'Networking', 'Business Communications']

@@ -3,7 +3,7 @@ import { getSkills } from './skills';
 import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
-	
+
 	{
 		slug: 'web-developer',
 		company: 'Self-employed',
@@ -11,7 +11,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.SelfEmployed,
 		type: 'Full Stack Developer',
 		location: 'Remote',
-		period: { from: new Date() },
+		period: { from: new Date(2017, 8, 1), to: new Date() },
 		skills: getSkills('Opencart', 'Shopify', 'HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Liquid', 'React', 'Svelte', 'TypeScript'),
 		name: 'Full Stack Developer',
 		color: 'blue',
