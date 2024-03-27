@@ -18,13 +18,13 @@ export const items: Array<Education> = [
 		degree: 'Bachelor of Computer Applications',
 		description: '',
 		location: 'India',
-		logo: Assets.Unknown,
+		logo: Assets.Mdu,
 		name: '',
 		organization: 'Maharishi Dayanand University',
 		period: { from: new Date(2016, 5, 1), to: new Date(2019, 5, 1) },
 		shortDescription: '',
 		slug: 'mdu',
-		subjects: ['C', 'C++', 'Java', 'PHP (Possibly)', 'Database Management', 'Web Development', 'Problem-Solving', 'Communication', 'Teamwork', 'Time Management', 'Adaptability']
+		subjects: ['C', 'C++', 'C#', 'ASP', 'Dot Net', 'Java', 'PHP', 'Database Management', 'Web Development', 'Problem-Solving', 'Communication', 'Teamwork', 'Time Management', 'Adaptability']
 	}
 ];
 

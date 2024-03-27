@@ -25,7 +25,7 @@ export const items: Array<Experience> = [
 		description: 'Support in managing and optimizing cloud infrastructure to meet organizational requirements.',
 		contract: ContractType.Freelance,
 		type: 'Cloud Engineering',
-		location: 'Home',
+		location: 'India',
 		period: { from: new Date(2020, 1, 1), to: new Date(2022, 11, 1) },
 		skills: getSkills('AWS', 'Azure', 'GCP', 'Networking', 'Linux', 'Scripting'),
 		name: 'Assistant Cloud Engineer',
