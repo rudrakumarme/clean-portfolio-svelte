@@ -75,6 +75,7 @@ const Assets = {
 	Loyalist: a('loyalistcollege.jpg'),
 	Infoage: a('infoage.jpeg'),
 	Dev: a('dev.png'),
+	Opencart : a('opencart.svg'),
 };
 
 export default Assets;
