@@ -72,7 +72,9 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	Mdu: a('mdu.jpg'),
-	Loyalist: a('loyalistcollege.jpg')
+	Loyalist: a('loyalistcollege.jpg'),
+	Infoage: a('infoage.jpeg'),
+	Dev: a('dev.png'),
 };
 
 export default Assets;

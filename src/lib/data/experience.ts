@@ -16,7 +16,7 @@ export const items: Array<Experience> = [
 		name: 'Full Stack Developer',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Dev,
 		shortDescription: 'Creating custom websites and web applications for clients.'
 	},
 	{
@@ -31,7 +31,7 @@ export const items: Array<Experience> = [
 		name: 'Assistant Cloud Engineer',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Infoage,
 		shortDescription: 'Support in managing and optimizing cloud infrastructure to meet organizational requirements.'
 	},
 	{
@@ -46,7 +46,7 @@ export const items: Array<Experience> = [
 		name: 'Junior Cloud Engineer',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Infoage,
 		shortDescription: 'Managing and optimizing cloud infrastructure to support business needs.'
 	}
 ];
