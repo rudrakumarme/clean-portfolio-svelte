@@ -7,8 +7,8 @@ export const name = 'Rudra';
 
 export const lastName = 'Kumar';
 
-export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+export const description: string =
+	'Discover the intersection of innovation and elegance in my portfolio, where each project is a testament to my expertise in Shopify and OpenCart development. Specializing in crafting bespoke eCommerce solutions, I elevate online stores with custom designs, seamless functionality, and optimized performance. My work not only enhances user experience but also drives sales, reflecting a blend of technical proficiency and creative vision. Let\'s transform your eCommerce goals into digital success stories.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/' },
