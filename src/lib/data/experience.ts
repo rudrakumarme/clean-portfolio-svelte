@@ -3,6 +3,7 @@ import { getSkills } from './skills';
 import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
+	
 	{
 		slug: 'web-developer',
 		company: 'Self-employed',
