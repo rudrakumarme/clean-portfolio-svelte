@@ -71,7 +71,8 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	Mdu: a('mdu.png')
+	Mdu: a('mdu.jpg'),
+	Loyalist: a('loyalistcollege.jpg')
 };
 
 export default Assets;

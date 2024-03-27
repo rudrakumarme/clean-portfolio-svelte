@@ -6,7 +6,7 @@ export const items: Array<Education> = [
 		degree: 'Computer Software and Database Development',
 		description: '',
 		location: 'Toronto, Canada',
-		logo: Assets.Unknown,
+		logo: Assets.Loyalist,
 		name: '',
 		organization: 'Loyalist College',
 		period: { from: new Date(2023, 9, 7), to: new Date() },
