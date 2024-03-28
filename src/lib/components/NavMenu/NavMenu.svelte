@@ -3,6 +3,7 @@
 	import { theme, toggleTheme } from '$lib/stores/theme';
 	import { items } from '@data/navbar';
 	import * as HOME from '@data/home';
+	
 
 	import { base } from '$app/paths';
 	import UIcon from '../Icon/UIcon.svelte';

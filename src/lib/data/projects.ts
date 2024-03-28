@@ -5,7 +5,7 @@ import type { Project } from '../types';
 export const items: Array<Project> = [
 	{
 		slug: 'usedproducts.ro',
-color: '#ff3e00',
+color: '#ee7a01',
 description:
   "A redesign and abandoned cart extension for Used Products, a European chain with over 60 stores across five countries, specializing in buying, selling, and marketing sustainable products, both new and second-hand, with a focus on providing customers cash for their items and warranty with each purchase. Their unique combination of physical stores and online presence allows them to efficiently serve a diverse set of needs.",
 shortDescription:
@@ -27,7 +27,7 @@ type: 'E-commerce Website',
 	},
 	{
 		"slug": "pirktukas.lt",
-		"color": "#0A74DA",
+		"color": "#bf1d2d",
 		"description": "Pirktukas.lt stands as a beacon of fashion-forward and affordable men's clothing in Lithuania, distinguished by its unrivaled ratings from male shoppers. This e-commerce platform merges the latest fashion trends with innovative features like photo-printed clothing and wholesale offerings, catalyzing market growth. Our commitment to collaborating exclusively with reputable manufacturers ensures a consistent balance of low prices and high quality. The youthful spirit and professionalism of our team guarantee top-tier service, streamlined shopping experiences, and swift delivery across Lithuania.",
 		"shortDescription": "A leading e-shop in Lithuania for men's fashion, pirktukas.lt excels in delivering trendy, affordable clothing with a commitment to quality and customer service. Specializing in photo printing and wholesale, our platform is a trendsetter in the fashion industry.",
 		"links": [

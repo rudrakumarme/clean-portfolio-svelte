@@ -21,7 +21,7 @@
 	// Store for the dynamic title
 	const dynamicTitle = writable('');
   // List of titles
-  const titles = ['a software engineer', 'a web developer', 'an open source contributor'];
+  const titles = ['a full stack developer', 'a web developer', 'e-commerce developer', 'an open source contributor', 'shopify expert', 'a freelancer', 'opencart expert'];
   // Current title index
   let titleIndex = 0;
   // Toggle for the blinking cursor
@@ -48,7 +48,7 @@
     updateTitle();
     setInterval(() => {
       showCursor = !showCursor;
-    }, 530); // blink cursor every 530ms
+    }, 730); // blink cursor every 530ms
   });
 
 
@@ -72,12 +72,9 @@
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
 	<div class="md:flex-1 gap-10px">
-		<h1 style="font-size: 3em; color: #44D62C;">
-			whoami
-			<span class="cursor">{showCursor ? '_' : ' '}</span>
-		  </h1>
+		<h1 class="text-[var(--greenyellow)] text-center md:text-left text-[2em]">whoami<span class="cursor">{showCursor ? '_' : ' '}</span></h1>
 		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
-		<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em]">
+		<p class="text-[var(--greenyellow)] text-center md:text-left text-[1.2em] p-y-10px p-x-0px gap-2">
 			{$dynamicTitle}
 		  </p>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
