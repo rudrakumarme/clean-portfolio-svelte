@@ -78,7 +78,8 @@ const Assets = {
 	Opencart : a('opencart.svg'),
 	Shopify : a('shopify.svg'),
 	UsedProducts : a('usedproducts.jpg'),
-	Namoxy: a('namoxy.png')
+	Namoxy: a('namoxy.png'),
+	Pirktukas: a('pirktukas.jpg')
 };
 
 export default Assets;

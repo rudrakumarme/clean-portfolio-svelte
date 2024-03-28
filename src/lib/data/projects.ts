@@ -36,7 +36,7 @@ type: 'E-commerce Website',
 			"label": "Website"
 		  }
 		],
-		"logo": "Assets.PirktukasLogo", // Replace with the appropriate logo variable or link
+		"logo": Assets.Pirktukas,
 		"name": "Pirktukas.lt",
 		"period": {
 		  "from": new Date(2022, 0)
