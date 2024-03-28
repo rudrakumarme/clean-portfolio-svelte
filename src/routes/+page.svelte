@@ -55,14 +55,29 @@
 </script>
 
 <svelte:head>
+	<style>
+		.cursor {
+		  opacity: 1;
+		  animation: blink-animation 1s steps(2, start) infinite;
+		}
+		@keyframes blink-animation {
+		  to {
+			opacity: 0;
+		  }
+		}
+	  </style>
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
 	<div class="md:flex-1 gap-10px">
-		<MainTitle classes="md:text-left ">{name} {lastName}<span class="cursor">{showCursor ? '_' : ' '}</span></MainTitle>
-		<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em] font-extralight">
+		<h1 style="font-size: 3em; color: #44D62C;">
+			whoami
+			<span class="cursor">{showCursor ? '_' : ' '}</span>
+		  </h1>
+		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
+		<p class="text-[var(--tertiary-text)] text-center md:text-left text-[1.2em]">
 			{$dynamicTitle}
 		  </p>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
