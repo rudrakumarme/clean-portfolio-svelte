@@ -38,7 +38,7 @@
       if (i === currentTitle.length) {
         clearInterval(interval);
         titleIndex = (titleIndex + 1) % titles.length;
-        setTimeout(updateTitle, 2000); // wait for 2s before updating to the next title
+        setTimeout(updateTitle, 1000); // wait for 2s before updating to the next title
       }
     }, 150);
   }
