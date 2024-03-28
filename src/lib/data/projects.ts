@@ -20,8 +20,8 @@ skills: getSkills('opencart', 'php', 'mysql', 'javascript', 'css', 'html'),
 type: 'E-commerce Website',
 		screenshots: [
 			{
-				label: 'screen 1',
-				src: '/static/screenshots/p1_ss.jpg'
+				label: 'homepage',
+				src: '/screenshots/p1_ss.jpg'
 			}
 		]
 	}
