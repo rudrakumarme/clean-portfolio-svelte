@@ -96,7 +96,24 @@ export const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
-	})
+	}),
+	defineSkill({
+		slug: 'php',
+		color: 'blue',
+		description: 'php',
+		logo: Assets.Php,
+		name: 'Php',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'python',
+		color: 'blue',
+		description: 'python',
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+
 ] as const;
 
 export const title = 'Skills';

@@ -79,7 +79,8 @@ const Assets = {
 	Shopify : a('shopify.svg'),
 	UsedProducts : a('usedproducts.jpg'),
 	Namoxy: a('namoxy.png'),
-	Pirktukas: a('pirktukas.jpg')
+	Pirktukas: a('pirktukas.jpg'),
+	Php: a('php.svg'),
 };
 
 export default Assets;
