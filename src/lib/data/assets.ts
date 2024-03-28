@@ -76,6 +76,9 @@ const Assets = {
 	Infoage: a('infoage.jpeg'),
 	Dev: a('dev.png'),
 	Opencart : a('opencart.svg'),
+	Shopify : a('shopify.svg'),
+	UsedProducts : a('usedproducts.jpg'),
+	Namoxy: a('namoxy.png'),
 };
 
 export default Assets;
