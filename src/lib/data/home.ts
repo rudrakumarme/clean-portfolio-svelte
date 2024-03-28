@@ -1,7 +1,7 @@
 import { Platform } from '$lib/types';
 import { getSkills } from './skills';
 
-export const title = 'Home';
+export const title = 'Expert Full Stack Developer | OpenCart & Shopify Specialist';
 
 export const name = 'Rudra';
 
