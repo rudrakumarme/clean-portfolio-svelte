@@ -367,9 +367,6 @@ body {
 		}
 	}
 }
-.rounded-image {
-	border-radius: 5px;
-}
 
 @media (min-width: 768px) {
 	.rating {
@@ -380,9 +377,10 @@ body {
 
 @media (max-width: 768px) {
 	.rating {
-		max-width: 100%;
+		max-width: 300px;
 		height: auto;
-		
+		padding: 0 10%;
 	}
 }
+
 
