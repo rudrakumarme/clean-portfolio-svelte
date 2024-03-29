@@ -79,7 +79,7 @@
 	  </style>
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
-<!-- video autoplay="" loop="" muted="" playsinline="" preload="metadata" poster="/hero-desktop-poster.jpg?tr=q-95" style="position: initial;visibility: visible;display: block;height: 100%;object-fit: cover;pointer-events: none;width: 100%;left: 0px;top: 0px;height: 100%;left: 0px;pointer-events: none;position: absolute;top: 0px;width: 100%;z-index: 0;" src="/hero-desktop.mp4?tr=q-95" class="sc-1ck9s4i-0 iaATcO"></video -->
+<video autoplay="" loop="" muted="" playsinline="" preload="metadata" poster="/hero-desktop-poster.jpg?tr=q-95" style="position: initial;visibility: visible;display: block;height: 100%;object-fit: cover;pointer-events: none;width: 100%;left: 0px;top: 0px;height: 100%;left: 0px;pointer-events: none;position: absolute;top: 0px;width: 100%;z-index: 0;" src="/hero-desktop.mp4?tr=q-95" class="sc-1ck9s4i-0 iaATcO"></video>
 <div
 	class="col self-center flex-1 justify-center lg:justify-between items-center p-y-60px p-x-10px z-index-2"
 >
