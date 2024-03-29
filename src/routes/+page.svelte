@@ -71,7 +71,7 @@
 				display: none;
 			}
 		}
-
+		
 	  </style>
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
