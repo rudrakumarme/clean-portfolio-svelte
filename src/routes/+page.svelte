@@ -65,6 +65,13 @@
 			opacity: 0;
 		  }
 		}
+
+		@media (max-width: 768px) {
+			.cursor {
+				display: none;
+			}
+		}
+
 	  </style>
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
@@ -74,7 +81,7 @@
 	<div class="md:flex-1 gap-10px">
 		<h1 class="text-[var(--greenyellow)] text-center md:text-left text-[2em]">Hey<span class="cursor">{showCursor ? '_' : ' '}</span></h1>
 		<MainTitle classes="md:text-left ">I'm {name} {lastName}</MainTitle>
-		<a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="w-50 h-auto text-center" /></a>
+		<a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="h-auto text-center rating" /></a>
 		<p class="text-[var(--greenyellow)] text-center md:text-left text-[1.2em] p-y-10px p-x-0px gap-2 font-bold">{$dynamicTitle}&nbsp;</p>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
 			{description}
