@@ -22,7 +22,7 @@
 
 	--light-0: #fff;
 	--light-00: #cacaca;
-	--light-1: #ffffff;
+	--light-1: #e1e1e1;
 	--light-2: #d1d1d1;
 	--light-3: #c1c1c1;
 	--light-4: #b1b1b1;
@@ -30,8 +30,6 @@
 	--light-6: #919191;
 	--light-7: #818181;
 	--light-8: #717171;
-
-	--greenyellow: yellowgreen;
 
 	--code-keyword-light: #bd2864;
 	--code-keyword-dark: #bd2864;
@@ -53,6 +51,8 @@
 
 	--dark-0-60: rgba(0, 0, 0, 0.6);
 	--light-0-60: rgba(255, 255, 255, 0.6);
+
+	--greenyellow: #6EB700;
 
 	// fonts
 	--text-f: "Questrial", sans-serif;
@@ -107,8 +107,6 @@ body {
 }
 
 :root[data-theme='light'] {
-	color-scheme: light;
-
 	--main: var(--light-0);
 	--main-close: var(--light-00);
 	--main-hover: var(--light-1);
