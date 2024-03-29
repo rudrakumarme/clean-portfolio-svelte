@@ -1,4 +1,5 @@
 import { Platform } from '$lib/types';
+import Assets from './assets';
 import { getSkills } from './skills';
 
 export const title = 'Expert Full Stack Developer | OpenCart & Shopify Specialist';
@@ -9,6 +10,8 @@ export const lastName = 'Kumar';
 
 export const description: string =
 	'Dynamic eCommerce Developer specializing in Shopify and OpenCart. I transform online stores into visually stunning, highly functional marketplaces optimized for both speed and user experience. Let\'s elevate your digital presence together.';
+
+export const rating = Assets.Rating;
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/rudrakumarme/' },

@@ -5,7 +5,7 @@
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
 	import { titleSuffix } from '@data/app';
-	import { links, description, lastName, name, title, skills } from '@data/home';
+	import { links, description, lastName, name, title, skills, rating } from '@data/home';
 	import { items as skillsItems } from '@data/skills';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
@@ -38,9 +38,9 @@
       if (i === currentTitle.length) {
         clearInterval(interval);
         titleIndex = (titleIndex + 1) % titles.length;
-        setTimeout(updateTitle, 1000); // wait for 2s before updating to the next title
+        setTimeout(updateTitle, 300); // wait for 2s before updating to the next title
       }
-    }, 150);
+    }, 50);
   }
 
   // Start the typing effect when the component is mounted
@@ -48,7 +48,7 @@
     updateTitle();
     setInterval(() => {
       showCursor = !showCursor;
-    }, 730); // blink cursor every 530ms
+    }, 130); // blink cursor every 530ms
   });
 
 
@@ -72,11 +72,10 @@
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
 	<div class="md:flex-1 gap-10px">
-		<h1 class="text-[var(--greenyellow)] text-center md:text-left text-[2em]">whoami<span class="cursor">{showCursor ? '_' : ' '}</span></h1>
-		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
-		<p class="text-[var(--greenyellow)] text-center md:text-left text-[1.2em] p-y-10px p-x-0px gap-2">
-			{$dynamicTitle}
-		  </p>
+		<h1 class="text-[var(--greenyellow)] text-center md:text-left text-[2em]">Hey<span class="cursor">{showCursor ? '_' : ' '}</span></h1>
+		<MainTitle classes="md:text-left ">I'm {name} {lastName}</MainTitle>
+		<a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="w-50 h-auto text-center" /></a>
+		<p class="text-[var(--greenyellow)] text-center md:text-left text-[1.2em] p-y-10px p-x-0px gap-2 font-bold">{$dynamicTitle}&nbsp;</p>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
 			{description}
 		</p>

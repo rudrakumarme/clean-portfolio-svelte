@@ -3,6 +3,7 @@ import { getSkills } from './skills';
 import type { Project } from '../types';
 
 export const items: Array<Project> = [
+		
 	{
 		slug: 'usedproducts.ro',
 color: '#ee7a01',
@@ -16,8 +17,8 @@ name: 'Used Products',
 period: {
   from: new Date( 2023, 4),
 },
-skills: getSkills('opencart', 'php', 'mysql', 'javascript', 'css', 'html'),
-type: 'E-commerce Website',
+skills: getSkills('opencart', 'php', 'mysql', 'js', 'css', 'html'),
+type: 'eCommerce',
 		screenshots: [
 			{
 				label: 'homepage',
@@ -41,8 +42,8 @@ type: 'E-commerce Website',
 		"period": {
 		  "from": new Date(2022, 0)
 		},
-		"skills": getSkills('opencart', 'php', 'mysql', 'javascript', 'css', 'html', 'eCommerce', 'web design', 'SEO optimization', 'photo printing technology'),
-		"type": "E-commerce Website",
+		"skills": getSkills('opencart', 'php', 'mysql', 'js', 'css', 'html', 'eCommerce', 'web design', 'SEO optimization', 'photo printing technology'),
+		"type": "eCommerce",
 		"screenshots": [
 		  {
 			"label": "homepage",
@@ -53,7 +54,65 @@ type: 'E-commerce Website',
 			"src": "/screenshots/pirktukas_product.jpg"
 		  }
 		]
-	  }
+	  },
+	  {
+		"slug": "namoxy.com",
+		"color": "#E91E61",
+		"description": "Namoxy.com offers over 1,000 premium, catchy, and brandable domain names for sale online, catering to various companies and business services. With its intuitive search features, users can find domain names by industry, affordable price, and more, making it a go-to destination for acquiring the perfect domain.",
+		"shortDescription": "Namoxy.com is your ultimate destination for finding premium, catchy, and brandable domain names for sale online. Whether you're searching by industry or price, our platform simplifies the process of acquiring the ideal domain for your business.",
+		"links": [
+			{
+				"to": "https://namoxy.com/",
+				"label": "Website"
+			}
+		],
+		"logo": Assets.Namoxy, // Replace "Assets.Namoxy" with the actual path to your logo asset
+		"name": "Namoxy.com",
+		"period": {
+			"from": new Date(2021, 0)
+		},
+		"skills": getSkills('wordpress', 'php', 'html', 'css', 'js', 'email automation', 'bulk editing', 'web design'),
+		"type": "eCommerce",
+		"screenshots": [
+			{
+				"label": "Homepage",
+				"src": "/screenshots/namoxy_homepage.jpg"
+			},
+			{
+				"label": "Search Results",
+				"src": "/screenshots/namoxy_domains_page.jpg"
+			}
+		]
+	},
+
+	{
+		"slug": "zumamall.com",
+		"color": "#007bff",
+		"description": "ZumaMall.com is a contemporary e-commerce company established in 2012 to deliver high-quality office and educational supplies in Nigeria. Since its inception, ZumaMall.com has been committed to providing thousands of clients with reliable and cost-efficient technology solutions for their collaboration, presentation, and educational needs.",
+		"shortDescription": "ZumaMall.com is a leading e-commerce platform in Nigeria specializing in high-quality office and educational supplies. With a focus on professionalism and quality service delivery, we offer a wide range of audiovisual products, IT, electronics, teaching aids, and office supplies sourced from reputable manufacturers and sellers.",
+		"links": [
+			{
+				"to": "https://zumamall.com/",
+				"label": "Website"
+			}
+		],
+		"logo": Assets.Zumamall, // Replace "Assets.ZumaMall" with the actual path to your logo asset
+		"name": "ZumaMall.com",
+		"period": {
+			"from": new Date(2023, 5)
+		},
+		"skills": getSkills('opencart', 'php', 'mysql', 'javascript', 'css', 'html', 'eCommerce', 'extension development', 'theme design', 'SMS integration', 'abandoned cart recovery'),
+		"type": "eCommerce",
+		"screenshots": [
+			{
+				"label": "Homepage",
+				"src": "/screenshots/zumamall_homepage.jpg"
+			}
+		]
+	}
+
+
+	
 	  
 ];
 

@@ -81,6 +81,11 @@ const Assets = {
 	Namoxy: a('namoxy.png'),
 	Pirktukas: a('pirktukas.jpg'),
 	Php: a('php.svg'),
+	Rating: a('rating.svg'),
+	ShopifyPartner: a('shopify-partner.png'),
+	OpenCartPartner: a('opencart-partner.png'),
+	Wordpress: a('wordpress.svg'),
+	Zumamall: a('zumamall.jpg'),
 };
 
 export default Assets;

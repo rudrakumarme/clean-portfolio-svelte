@@ -35,6 +35,39 @@ const defineSkill = <S extends string>(
 };
 
 export const items = [
+// Define Shopify
+defineSkill({
+	slug: 'shopify',
+	color: '#96bf48', // Shopify color code
+	description:
+		"Shopify is a leading e-commerce platform that enables businesses to set up and manage their online stores with ease. With its user-friendly interface and extensive features, Shopify empowers merchants to sell products online, manage inventory, process orders, and customize their storefronts without the need for extensive technical knowledge.",
+	logo: Assets.ShopifyPartner,
+	name: 'Shopify',
+	category: 'platforms'
+}),
+
+
+// Define OpenCart
+defineSkill({
+	slug: 'opencart',
+	color: '#f37034', // OpenCart color code
+	description:
+		"OpenCart is an open-source e-commerce platform known for its simplicity and flexibility. It offers a range of features including a user-friendly admin interface, customizable templates, multi-store support, and a robust extension system. OpenCart is suitable for businesses of all sizes looking to establish an online presence and sell products effectively.",
+	logo: Assets.Opencart,
+	name: 'OpenCart',
+	category: 'platforms'
+}),
+
+// Define WordPress
+defineSkill({
+	slug: 'wordpress',
+	color: '#21759b', // WordPress color code
+	description:
+		"WordPress is a versatile content management system (CMS) that powers a significant portion of the web. It is renowned for its ease of use, extensive plugin ecosystem, and flexibility, making it suitable for various types of websites, from blogs and portfolios to e-commerce stores and corporate sites. With WordPress, users can create and manage content efficiently, customize their websites with themes and plugins, and scale their online presence as needed.",
+	logo: Assets.Wordpress,
+	name: 'WordPress',
+	category: 'platforms'
+}),
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
