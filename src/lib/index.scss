@@ -373,10 +373,13 @@ body {
 }
 
 @media (min-width: 768px) {
+	
 	.rating {
-		max-width: 30%;
-		height: auto;
+		max-width: 200px;
+        height: auto;
+        padding: 0 30%;
 	}
+
 }
 
 @media (max-width: 768px) {
@@ -386,6 +389,8 @@ body {
         padding: 0 20%;
 	}
 }
+
+
 
 .p-y-60px {
 	padding-top: 60px;
