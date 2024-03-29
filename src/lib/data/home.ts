@@ -25,20 +25,40 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://stackoverflow.com/users/23850805/rudra-kumar'
 	},
 	{
 		platform: Platform.Email,
-		link: 'hello@rudrakumar.me'
+		link: 'rudrakumarme@gmail.com'
 	},
-	// {
-	// 	platform: Platform.Youtube,
-	// 	link: 'https://www.youtube.com'
-	// },
-	// {
-	// 	platform: Platform.Facebook,
-	// 	link: 'https://www.facebook.com'
-	// }
+	{
+		platform: Platform.Youtube,
+		link: 'https://www.youtube.com/@rudrakumarme'
+	},
+	{
+		platform: Platform.Medium,
+		link: 'https://medium.com/@rudrakumarme'
+	},
+	{
+		platform: Platform.Quora,
+		link: 'https://www.quora.com/profile/Rudra-Kumar-747'
+	},
+	{
+		platform: Platform.Instagram,
+		link: 'https://www.instagram.com/rudrakumarme/'
+	},
+	{
+		platform: Platform.Facebook,
+		link: 'https://www.facebook.com/rudrakumarme/'
+	},
+	{
+		platform: Platform.Dribbble,
+		link: 'https://dribbble.com/rudrakumarme'
+	},
+	{
+		platform: Platform.Behance,
+		link: 'https://www.behance.net/rudrakumarme'
+	}
 ];
 
 export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');

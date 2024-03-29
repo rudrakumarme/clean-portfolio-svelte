@@ -7,7 +7,12 @@ export enum Platform {
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
-	Youtube = 'youtube'
+	Youtube = 'youtube',
+	Medium = 'medium',
+	Quora = 'quora',
+	Instagram = 'instagram',
+	Dribbble = 'dribbble',
+	Behance = 'behance'
 }
 
 export type Icon = `i-${string}-${string}`;
