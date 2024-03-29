@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 
 :root {
 	--dark-0: #000;
@@ -18,7 +22,7 @@
 
 	--light-0: #fff;
 	--light-00: #cacaca;
-	--light-1: #e1e1e1;
+	--light-1: #ffffff;
 	--light-2: #d1d1d1;
 	--light-3: #c1c1c1;
 	--light-4: #b1b1b1;
@@ -51,8 +55,8 @@
 	--light-0-60: rgba(255, 255, 255, 0.6);
 
 	// fonts
-	--text-f: 'Poppins', sans-serif;
-	--title-f: 'Poppins', sans-serif;
+	--text-f: "Questrial", sans-serif;
+	--title-f: "Libre Baskerville", serif;
 
 	overflow-y: scroll;
 }
@@ -86,7 +90,7 @@ body {
 	--secondary-text-hover: var(--light-2);
 	--tertiary-text: var(--light-2);
 	--tertiary-text-hover: var(--light-3);
-	--accent-text: var(--light-3);
+	--accent-text: var(--light-1);
 	--accent-text-hover: var(--light-4);
 
 	--border: var(--dark-2);
@@ -167,7 +171,7 @@ body {
 	--code-interpolation: var(--code-keyword);
 	--code-class-name: var(--secondary-text);
 
-	font-family: 'Poppins', monospace;
+	font-family: "Libre Baskerville", serif;
 	font-size: 14px;
 
 	color: var(--tertiary-text);

@@ -121,11 +121,11 @@
 		justify-content: center;
 		position: sticky;
 		top: 0px;
-		z-index: 10;
+		z-index: 1;
 		padding: 0px 10px;
 		height: 50px;
 		border-bottom: 1px solid var(--secondary);
-		background-color: var(--main);
+		//background-color: var(--main);
 
 		&-item {
 			text-decoration: none;

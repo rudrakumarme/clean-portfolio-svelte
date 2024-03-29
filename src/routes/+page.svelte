@@ -71,22 +71,28 @@
 				display: none;
 			}
 		}
+
+		.z-index-2 {
+			z-index: 2;
+		}
 		
 	  </style>
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
+<video autoplay="" loop="" muted="" playsinline="" preload="metadata" poster="/hero-desktop-poster.jpg" style="position: initial;visibility: visible;display: block;height: 100%;object-fit: cover;pointer-events: none;width: 100%;left: 0px;top: 0px;height: 100%;left: 0px;pointer-events: none;position: absolute;top: 0px;width: 100%;z-index: 0;" src="/hero-desktop.mp4" class="sc-1ck9s4i-0 iaATcO"></video>
 <div
-	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
+	class="col self-center flex-1 justify-center lg:justify-between items-center p-y-30px p-x-10px z-index-2"
 >
-	<div class="md:flex-1 gap-10px">
-		<h1 class="text-[var(--greenyellow)] text-center md:text-left text-[2em]">Hey<span class="cursor">{showCursor ? '_' : ' '}</span></h1>
-		<MainTitle classes="md:text-left ">I'm {name} {lastName}</MainTitle>
-		<a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="h-auto text-center rating" /></a>
-		<p class="text-[var(--greenyellow)] text-center md:text-left text-[1.2em] p-y-10px p-x-0px gap-2 font-bold">{$dynamicTitle}&nbsp;</p>
-		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
+
+	<div class="flex-1 gap-10px">
+		<h1 class="text-[var(--greenyellow)] text-center  text-[2em]">Hey</h1>
+		<MainTitle classes="">I'm {name} {lastName}</MainTitle>
+		<!-- a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="h-auto text-center rating" /></a -->
+		<p class="text-[var(--greenyellow)] text-center text-[1.2em] p-y-10px p-x-0px gap-2 font-extralight">{$dynamicTitle}&nbsp;</p>
+		<!-- p class="text-[var(--tertiary-text)]  text-center text-[1.2em] font-extralight">
 			{description}
-		</p>
-		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
+		</p -->
+		<div class="row justify-center p-y-15px p-x-0px gap-2">
 			{#each links as link}
 				<a
 					class="decoration-none"
