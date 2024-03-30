@@ -105,13 +105,23 @@ onMount(() => {
 >
 
 	<div class="flex-1 gap-10px">
-		<h1 class="text-[var(--greenyellow)] text-center  text-[2em]">Hey</h1>
+		<!-- h2 class="text-[var(--light-0)] text-center  text-[2em]">I'm</h2 -->
 		<MainTitle classes="">I'm {name} {lastName}</MainTitle>
-		<a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="h-auto text-center rating" /></a>
-		<p class="text-[var(--greenyellow)] text-center text-[1.2em] p-y-10px p-x-0px gap-2 font-black">{$dynamicTitle}&nbsp;</p>
+		<!-- a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="h-auto text-center rating" /></a -->
+		<p class="text-[var(--light-0)] text-center text-[1.2em] p-y-10px p-x-0px gap-2 font-black">{$dynamicTitle}&nbsp;</p>
 		<!-- p class="text-[var(--tertiary-text)]  text-center text-[1.2em] font-extralight">
 			{description}
 		</p -->
+
+
+		<div class="row justify-center p-y-15px p-x-0px gap-2">
+		<a href="https://calendly.com/rudrakumarme/30min" class="transparent-button">
+			Let's Talk
+			<svg width="19" height="8" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="sc-b5xc4a-2 ggybSB">
+				<path d="M2 4.87494H0.875L0.875 7.12494H2L2 4.87494ZM2 7.12494L30.5 7.12494V4.87494L2 4.87494L2 7.12494ZM25.0685 4.7589e-08C25.0685 3.89997 28.1374 7.125 32 7.125L32 4.875C29.449 4.875 27.3185 2.72744 27.3185 -4.7589e-08L25.0685 4.7589e-08ZM32 4.875C28.1374 4.875 25.0684 8.09999 25.0684 12H27.3184C27.3184 9.27259 29.4489 7.125 32 7.125V4.875Z" fill="white"></path>
+			</svg>
+		</a>
+		</div>
 		<div class="row justify-center p-y-15px p-x-0px gap-2">
 			{#each links as link}
 				<a

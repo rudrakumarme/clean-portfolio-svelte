@@ -394,3 +394,20 @@ body {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+
+
+.transparent-button {
+	background-color: transparent;
+	border: 1px solid var(--main-text);
+	color: var(--main-text);
+	cursor: pointer;
+	font-size: 1em;
+	padding: 0.5em 1em;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 200ms ease;
+
+	&:hover {
+		background-color: var(--main-60);
+	}
+}
