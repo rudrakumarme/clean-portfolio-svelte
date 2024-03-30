@@ -108,7 +108,7 @@ onMount(() => {
 		<!-- h2 class="text-[var(--light-0)] text-center  text-[2em]">I'm</h2 -->
 		<MainTitle classes="">I'm {name} {lastName}</MainTitle>
 		<!-- a class="text-center" target="_blank" href="https://www.trustpilot.com/review/clickrays.com"><img src="{rating}" alt="Rating" class="h-auto text-center rating" /></a -->
-		<p class="text-[var(--light-0)] text-center text-[1.2em] p-y-10px p-x-0px gap-2 font-black">{$dynamicTitle}&nbsp;</p>
+		<p class="text-[var(--light-0)] text-center text-[1.2em] md:text-[1.6em] p-y-10px p-x-0px gap-2 font-light">{$dynamicTitle}&nbsp;</p>
 		<!-- p class="text-[var(--tertiary-text)]  text-center text-[1.2em] font-extralight">
 			{description}
 		</p -->

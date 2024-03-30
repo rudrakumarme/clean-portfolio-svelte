@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Questrial:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 
@@ -55,8 +55,8 @@
 	--greenyellow: #6EB700;
 
 	// fonts
-	--text-f: "Questrial", sans-serif;
-	--title-f: "Libre Baskerville", serif;
+	--text-f: "Montserrat", sans-serif;
+	--title-f: "Lora", serif;
 
 	overflow-y: scroll;
 }
@@ -169,7 +169,7 @@ body {
 	--code-interpolation: var(--code-keyword);
 	--code-class-name: var(--secondary-text);
 
-	font-family: "Libre Baskerville", serif;
+	font-family: "Lora", serif;
 	font-size: 14px;
 
 	color: var(--tertiary-text);
@@ -397,17 +397,22 @@ body {
 
 
 .transparent-button {
-	background-color: transparent;
-	border: 1px solid var(--main-text);
-	color: var(--main-text);
-	cursor: pointer;
-	font-size: 1em;
-	padding: 0.5em 1em;
-	text-align: center;
-	text-decoration: none;
-	transition: background-color 200ms ease;
-
-	&:hover {
-		background-color: var(--main-60);
-	}
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--main-text);
+    cursor: pointer;
+    backdrop-filter: blur(6.96986px);
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s ease;
+    font-weight: 600;
 }
+
+
+		.transparent-button svg {
+			width: 20px;
+			height: 8px;
+			margin-left: 10px;
+		}
