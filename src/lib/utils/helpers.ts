@@ -114,3 +114,5 @@ function doesQueryExistInItemOrAttributes(
 		return item.toString().toLowerCase().includes(query);
 	}
 }
+
+

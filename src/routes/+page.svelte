@@ -11,6 +11,21 @@
 	import { isBlank } from '@riadh-adrani/utils';
 	import { getPlatfromIcon } from '$lib/utils';
 
+
+	let isMobile = false;
+
+onMount(() => {
+  const userAgent = navigator.userAgent;
+  
+  // Regular expressions to match common mobile browsers
+  const mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+
+  // Check if the user agent matches a mobile device
+  if (mobileRegex.test(userAgent)) {
+	isMobile = true;
+  }
+});
+
 	const isEmail = (email: string): boolean => {
 		const reg =
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -79,7 +94,12 @@
 	  </style>
 	<title>{useTitle(title, titleSuffix)}</title>
 </svelte:head>
-<video autoplay loop muted playsinline preload="metadata" poster="/hero-desktop-poster.webp?tr=q-95" style="position: initial;visibility: visible;display: block;height: 100%;object-fit: cover;pointer-events: none;width: 100%;left: 0px;top: 0px;height: 100%;left: 0px;pointer-events: none;position: absolute;top: 0px;width: 100%;z-index: 0;" src="/hero-desktop.mp4?tr=q-95" class="sc-1ck9s4i-0 iaATcO"></video>
+
+{#if isMobile}
+<video autoplay loop muted playsinline preload="metadata" poster="/hero-mobile-poster.webp?tr=q-95" style="position: initial;visibility: visible;display: block;height: 100%;object-fit: cover;pointer-events: none;width: 100%;left: 0px;top: 0px;height: 100%;left: 0px;pointer-events: none;position: absolute;top: 0px;width: 100%;z-index: 0;" src="/hero-mobile.mp4?tr=q-95"></video>
+{:else}
+	<video autoplay loop muted playsinline preload="metadata" poster="/hero-desktop-poster.webp?tr=q-95" style="position: initial;visibility: visible;display: block;height: 100%;object-fit: cover;pointer-events: none;width: 100%;left: 0px;top: 0px;height: 100%;left: 0px;pointer-events: none;position: absolute;top: 0px;width: 100%;z-index: 0;" src="/hero-desktop.mp4?tr=q-95"></video>
+{/if}
 <div
 	class="col self-center flex-1 justify-center lg:justify-between items-center p-y-60px p-x-10px z-index-2"
 >
